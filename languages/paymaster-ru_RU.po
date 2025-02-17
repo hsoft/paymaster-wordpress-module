@@ -1,0 +1,244 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: paymaster 1.0\n"
+"POT-Creation-Date: 2023-11-07 15:26+0300\n"
+"PO-Revision-Date: 2023-11-07 15:26+0300\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: ru\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 3.4\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-KeywordsList: __\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: classes/WC_PayMaster_Gateway.php:9
+msgid "PayMaster for WooCommerce"
+msgstr "PayMaster для WooCommerce"
+
+#: classes/WC_PayMaster_Gateway.php:10
+msgid "The payment module for accepting payments via the PayMaster service"
+msgstr "Платёжный модуль для приёма платежей через PayMaster"
+
+#: classes/WC_PayMaster_Gateway.php:30
+msgid "Enable/Disable"
+msgstr "Включить/Выключить"
+
+#: classes/WC_PayMaster_Gateway.php:32 classes/WC_PayMaster_Gateway.php:78
+msgid "Enabled"
+msgstr "Включено"
+
+#: classes/WC_PayMaster_Gateway.php:36
+msgid "Base service address"
+msgstr "Базовый адрес сервиса"
+
+#: classes/WC_PayMaster_Gateway.php:43
+msgid "Token"
+msgstr "Токен"
+
+#: classes/WC_PayMaster_Gateway.php:45
+msgid "Token can be generated in the Merchant's Personal Account"
+msgstr "Токен можно сгенерировать в личном кабинете мерчанта"
+
+#: classes/WC_PayMaster_Gateway.php:52
+msgid "Merchant ID"
+msgstr "Идентификатор магазина"
+
+#: classes/WC_PayMaster_Gateway.php:54
+msgid "Copy this value from the Merchant's Personal Account"
+msgstr "Скопируйте из личного кабинета мерчанта"
+
+#: classes/WC_PayMaster_Gateway.php:61
+msgid "Payment service name"
+msgstr "Название платёжного сервиса"
+
+#: classes/WC_PayMaster_Gateway.php:63
+msgid "This title will be shown to the customer"
+msgstr "Это название увидит пользователь"
+
+#: classes/WC_PayMaster_Gateway.php:70
+msgid "Payment service description"
+msgstr "Описание платёжного сервиса"
+
+#: classes/WC_PayMaster_Gateway.php:72
+msgid "Description of payment method which user can see in you site"
+msgstr "Описание способа оплаты для показа пользователю"
+
+#: classes/WC_PayMaster_Gateway.php:76
+msgid "Logging"
+msgstr "Логирование"
+
+#: classes/WC_PayMaster_Gateway.php:87
+msgid "Default tax rate"
+msgstr "Ставка по умолчанию"
+
+#: classes/WC_PayMaster_Gateway.php:90
+msgid ""
+"The default rate applies if another rate is not set on the product's page"
+msgstr ""
+"Ставка по умолчанию будет в чеке, если в карточке товара не указана другая "
+"ставка"
+
+#: classes/WC_PayMaster_Gateway.php:96
+msgid "VAT rate for"
+msgstr "Ставка для"
+
+#: classes/WC_PayMaster_Gateway.php:99
+msgid "Match the rate in your store with the rate for the tax receipt"
+msgstr "Сопоставьте ставку в вашем магазине со ставкой для чека в налоговую"
+
+#: classes/WC_PayMaster_Gateway.php:105
+msgid "Payment subject"
+msgstr "Предмет расчета"
+
+#: classes/WC_PayMaster_Gateway.php:111
+msgid "Payment method"
+msgstr "Способ расчета"
+
+#: classes/WC_PayMaster_Gateway.php:116
+msgid "Payment subject for shipping"
+msgstr "Предмет расчета для доставки"
+
+#: classes/WC_PayMaster_Gateway.php:121
+msgid "Payment method for shipping"
+msgstr "Способ расчета для доставки"
+
+#: classes/WC_PayMaster_Gateway.php:130
+msgid "None"
+msgstr "Без НДС"
+
+#: classes/WC_PayMaster_Gateway.php:131
+msgid "VAT 0%"
+msgstr "НДС 0%"
+
+#: classes/WC_PayMaster_Gateway.php:132
+msgid "VAT 10%"
+msgstr "НДС 10%"
+
+#: classes/WC_PayMaster_Gateway.php:133
+msgid "VAT 20%"
+msgstr "НДС 20%"
+
+#: classes/WC_PayMaster_Gateway.php:134
+msgid "VAT formula 10/110"
+msgstr "НДС по формуле 10/110"
+
+#: classes/WC_PayMaster_Gateway.php:135
+msgid "VAT formula 20/120"
+msgstr "НДС по формуле 20/120"
+
+#: classes/WC_PayMaster_Gateway.php:155
+msgid "Commodity"
+msgstr "Товар (Commodity)"
+
+#: classes/WC_PayMaster_Gateway.php:156
+msgid "Excise"
+msgstr "Акциз (Excise)"
+
+#: classes/WC_PayMaster_Gateway.php:157
+msgid "Job"
+msgstr "Работа (Job)"
+
+#: classes/WC_PayMaster_Gateway.php:158
+msgid "Service"
+msgstr "Услуга (Service)"
+
+#: classes/WC_PayMaster_Gateway.php:159
+msgid "Gambling"
+msgstr "Ставка в азартной игре (Gambling)"
+
+#: classes/WC_PayMaster_Gateway.php:160
+msgid "Lottery"
+msgstr "Лотерейный билет (Lottery)"
+
+#: classes/WC_PayMaster_Gateway.php:161
+msgid "Intellectual activity"
+msgstr "Интеллектуальная деятельность (IntellectualActivity)"
+
+#: classes/WC_PayMaster_Gateway.php:162
+msgid "Payment"
+msgstr "Платеж (Payment)"
+
+#: classes/WC_PayMaster_Gateway.php:163
+msgid "Agent fee"
+msgstr "Вознаграждение агента (AgentFee)"
+
+#: classes/WC_PayMaster_Gateway.php:164
+msgid "Property rights"
+msgstr "Имущественные права (PropertyRights)"
+
+#: classes/WC_PayMaster_Gateway.php:165
+msgid "Non operating income"
+msgstr "Внереализационный доход (NonOperatingIncome)"
+
+#: classes/WC_PayMaster_Gateway.php:166
+msgid "Insurance payment"
+msgstr "Страховой сбор (InsurancePayment)"
+
+#: classes/WC_PayMaster_Gateway.php:167
+msgid "Sales tax"
+msgstr "Торговый сбор (SalesTax)"
+
+#: classes/WC_PayMaster_Gateway.php:168
+msgid "Resort fee"
+msgstr "Курортный сбор (ResortFee)"
+
+#: classes/WC_PayMaster_Gateway.php:169
+msgid "Other"
+msgstr "Другое (Other)"
+
+#: classes/WC_PayMaster_Gateway.php:176
+msgid "Full prepayment"
+msgstr "Полная предоплата (FullPrepayment)"
+
+#: classes/WC_PayMaster_Gateway.php:177
+msgid "Partial prepayment"
+msgstr "Частичная предоплата (PartialPrepayment)"
+
+#: classes/WC_PayMaster_Gateway.php:178
+msgid "Advance"
+msgstr "Аванс (Advance)"
+
+#: classes/WC_PayMaster_Gateway.php:179
+msgid "Full payment"
+msgstr "Полный расчет (FullPayment)"
+
+#: classes/WC_PayMaster_Gateway.php:180
+msgid "Partial payment"
+msgstr "Частичный расчет (PartialPayment)"
+
+#: classes/WC_PayMaster_Gateway.php:181
+msgid "Credit"
+msgstr "Кредит (Credit)"
+
+#: classes/WC_PayMaster_Gateway.php:192
+msgid "Payment for order"
+msgstr "Оплата заказа"
+
+#: classes/WC_PayMaster_Gateway.php:216
+msgid ""
+"Error connecting to PayMaster. Please try later or contact the site owner."
+msgstr ""
+"Ошибка при подключени к PayMaster. Пожалуйста, попробуйте позже или "
+"обратитесь к владельцу магазина."
+
+#: classes/WC_PayMaster_Gateway.php:331
+msgid "Order has been paid. PayMaster payment ID — "
+msgstr "Платёж оплачен. Идентификатор платежа в PayMaster — "
+
+#~ msgid "Order status after payment"
+#~ msgstr "Статус заказа после оплаты"
+
+#~ msgid "Pay"
+#~ msgstr "Оплатить"
+
+#~ msgid "Back to cart"
+#~ msgstr "Назад в корзину"
+
+#~ msgid "Debug"
+#~ msgstr "Логирование"
+
+#~ msgid "Log to <code>woocommerce/logs/paymaster.txt</code>"
+#~ msgstr "Запись лога в <code>woocommerce/logs/paymaster.txt</code>"

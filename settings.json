@@ -1,0 +1,6 @@
+{
+	"base_service_url": "https://psp.paymaster24.com",
+	"service_name": "PayMaster (payments online)",
+	"service_description": "Payments by bank cards, electronic money and more",
+	"send_receipt_data": "0"
+}
